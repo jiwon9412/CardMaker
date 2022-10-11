@@ -1,5 +1,15 @@
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
+import Login from "./components/login/login";
+
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Header />
+      <Login />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
