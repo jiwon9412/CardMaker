@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./header.module.css";
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return <div>헤더</div>;
 };
 
