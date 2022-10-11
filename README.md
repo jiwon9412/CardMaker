@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Card Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+드림코딩 강의를 들으며 만들게 된 토이 프로젝트이다.   
+강의를 듣기 전에 스스로 만들어 보면서 강의에서 제공한 요구사항을 구현하고 추가해보고 싶었던 새로운 기능을 구현하였고   
+완성한 후 강의를 보면서 부족했던 부분이나 더 효율적인 방법이 있다면 리팩토링하는 방식으로 진행했다.   
+이 전의 프로젝트(Youtube clone)에서는 전체를 모두 구현한 뒤에 강의를 보고 리팩토링하는 방식이었다면   
+이번에는 기능을 하나하나 구현할 때마다 강의를 통해 리팩토링해나가는 방식으로 만들어봤다.   
 
-## Available Scripts
+##
 
-In the project directory, you can run:
+### 강의에서의 요구사항
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Firebase를 활용한 로그인 구현
+2. Route를 활용한 화면 전환 (로그인 -> CardMaker 화면)
+3. 헤더 푸터
+4. Card 수정, 추가
+5. 이미지 업로드
+6. Firebase 실시간 dataset (realtime dataset)
