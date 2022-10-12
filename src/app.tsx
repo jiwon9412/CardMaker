@@ -2,10 +2,12 @@ import React from "react";
 import Login from "./components/login/login";
 import AuthService from "./service/auth_service";
 
-function App(props: { authService: AuthService }): JSX.Element {
+type AppProps = { authService: AuthService };
+
+function App({ authService }: AppProps): JSX.Element {
   return (
     <>
-      <Login authService={props.authService} />
+      <Login authService={authService} />
     </>
   );
 }
